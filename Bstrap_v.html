@@ -1,95 +1,146 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <!-- Required meta tags -->
+<html  lang="en">
+<head>
+	<title>Welcome Doon</title>
+	
+	
+<!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+ <!-- Linking to CSS -->
+	<link rel="stylesheet" type="text/css" href="styling.css">
 
-    <title>Bootstrap</title>
-    <!--Font link-->
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
-    <!--CSS-->
-   			<link rel="stylesheet" type="text/css" href="styling.css"> 
+<!--Javascript-->
+	  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
-  </head>
-  <body>
- 
-<!--Navbar-->
-	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-	  <div class="container-fluid">
-	    <a class="navbar-brand" href="#">Space Travel</a>
-	    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-	      <span class="navbar-toggler-icon"></span>
-	    </button>
-	    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-	      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-	        <li class="nav-item">
-	          <a class="nav-link" aria-current="page" href="#">HOME</a>
-	        </li>
-	        <li class="nav-item">
-	          <a class="nav-link" href="#">GALLERY</a></li>
-	          <a class="nav-link" href="#">ABOUT</a></li>
-	          <a class="nav-link" href="#">FEEDBACK</a>
-	        </li>
-	      </ul>
-	    </div>
-	  </div>
-	</nav>
-<!--Carousel-->
-	<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-	  <div class="carousel-indicators">
-	    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-	    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-	    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-	  </div>
-	  <div class="carousel-inner">
-	    <div class="carousel-item active">
-	      <img src="FRI.jpeg" class="d-block w-100" style="height: 500px;" alt="...">
-	    </div>
-	    <div class="carousel-item">
-	      <img src="Forest.jpeg" class="d-block w-100" style="height: 500px;" alt="...">
-	    </div>
-	    <div class="carousel-item">
-	      <img src="Deer.jpeg" class="d-block w-100" style="height: 500px;" alt="...">
-	    </div>
-	  </div>
-	  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-	    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-	    <span class="visually-hidden">Previous</span>
-	  </button>
-	  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-	    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-	    <span class="visually-hidden">Next</span>
-	  </button>
+</head>
+
+<body>
+	<header>
+
+		<!--Navbar-->
+		<nav class="navbar navbar-dark bg-dark">
+    		<div class="collapse navbar-collapse" id="navbarNav">
+      			<ul class="navbar-nav">
+        			<li class="nav-item">
+          				<a class="nav-link active" aria-current="page" href="#">Home</a>
+        			</li>
+        			<li class="nav-item">
+          				<a class="nav-link" href="#">Features</a>
+        			</li>
+        			<li class="nav-item">
+          				<a class="nav-link" href="#">About</a>
+        			</li>
+      			</ul>
+    		</div>
+		</nav>
+	</header>
+
+<!--Carousel not working-->
+<!--no Background working either way-->
+
+<h1><small><sup>come to</sup></small> <big><b>Dehradun</b></big><small><sub>for thrilled journey!</sub></small></h1>
+
+<img src="hills.jpg" height="500px" width="100%">
+
+<br>
+
+<section id="gallery" class="container">
+	<h2 class="text-center"> Places to Visit</h2>
+	<hr style="border: 2px solid-dark">
+	<!--1-->
+	<div class="row">
+		<div class="col-sm-6">
+			<a href="#"><img src="santaladevi.jpg" class="img-fluid img-responsive"></a>
+		</div>
+		<div class="col-sm-6">
+			<h3><a href=""> Temple & Monasteries</a></h3>
+			<p>The capital city of Uttarakhand rests peacefully in a valley and is a popular travel destination. Lying in the Garhwal region, Dehradun is a perfect blend of metropolitan city and hilly station. Every year thousands of tourists travel across the globe to visit the bewitching marvels of this city. Interestingly, it is also the abode of divine Hindu temples and Monasteries. While some are located in the bustling lanes of the city, others are hidden amid green forests. </p>
+		</div>
 	</div>
+<!--2-->
+	<div class="row">
+		<div class="col-sm-6">
+			<h3><a href=""> Must Vist</a></h3>
+			<p>Situated in the Doon Valley with a backdrop of the Shivalik and Lesser Himalayas, Dehradun is one of the quaint cities offering scenic delight. Known as Dehra during the British rule, this city became home to a lot of elite institutions and schools like Forest Research Institute, Doon School, and Welham Schools for boys and girls. Dehradun is now the capital city of Uttarakhand and is an ideal getaway for solo travelers, couples and families alike.  </p>
+		</div>
+		<div class="col-sm-6">
+			<a href="#"><img src="ima.jpg" class="img-fluid img-responsive"></a>
+		</div>
+	</div>
+<!--3-->
+	<div class="row">
+		<div class="col-sm-6">
+			<a href="#"><img src="https://c0.wallpaperflare.com/preview/568/442/373/camping-camp-adventure-the-stake.jpg" class="img-fluid img-responsive"></a>
+		</div>
+		<div class="col-sm-6">
+			<h3><a href=""> Trekking and Camping</a></h3>
+			<p>Despite excelling in different businesses like schooling, agriculture, construction, etc, the city of Dehradun is still known for its calm and relaxing life where the weather is pleasant and the air, fresh. It lies between the Ganga and Yamuna Rivers, two of the most prominent water bodies in the county. The city is at an elevation of 450m above sea level and makes for pleasant stay for tourists. </p>
+		</div>
+	</div>
+<!--4-->
+	<div class="row">
+		<div class="col-sm-6">
+			<h3><a href=""> Food & Drinks</a></h3>
+			<p>The capital of Uttarakhand, Dehradun is known for its culture and history. Local food carts are a common sight all over the place and serve a great purpose as many that visit are on tight budgets and schedules. Good food, easily available on the move, will give you an insight on what keeps the locals going in this city. </p>
+		</div>
+		<div class="col-sm-6">
+			<a href="#"><img src="food.jpg" class="img-fluid img-responsive"></a>
+		</div>
+	</div>
+<!--5-->
+	<div class="row">
+		<div class="col-sm-6">
+			<a href="#"><img src="shopping.jpg" class="img-fluid img-responsive"></a>
+		</div>
+		<div class="col-sm-6">
+			<h3><a href=""> Fun Time</a></h3>
+			<p>Shopping is the best thing which everyone likes. In Dehradun, there are many markets where you can purchase the things according to your pocket. The names like pacific, paltan bazaar, tibetan market, indira market and many more places to visit. </p>
+		</div>
+	</div>
+</section>	
 
-<!--Nicknames-->
-<section id="nn" class="container">
-	<h3>Nicknames are used to highlight the specialty of these cities. Similarly, Dehradun is one of them:</h3>
+<br>
+
+
+<!--Comments Section-->
+
+    <div class="mb-3 mt-3">
+      <label for="comment">Comments:</label><br>
+      <textarea class="form-control" rows="5" id="comment" name="text"></textarea><br>
+    
+    <button type="submit" class="btn btn-dark">Submit</button>
+  </form>
+</div>
+
+
+<!--Footer Section-->
+<footer>
 	<div class="row">
 		<div class="col-sm-4">
-			<p>Dehradun – School capital of India</p><br>
-			<p>Dehradun is famous for its world-class schools. Not only India but students from all over the world come here to study. That gives it the title of ‘School capital of India’.</p>
+			<img src="logo.jpg" class="img-responsive img-fluid" width="100px" height="100px">
 		</div>
 
-		<div class="col-sm-4">
-			<p>Dehradun – Dron Nagri</p><br>
-			<p>It is believed that the Ashram of Guru Dronacharcha was situated in Dehradun, where the Pandavas and Kauravas got their education. So, Dehradun is also known as Dron Nagari.</p>
+		<!--Sharing-->
+		<div class="col-sm-4 text-center">
+			<ul><h2 style="font-size: 30px">Share to:</h2>
+				<hr style="border: 2px width: 50%; solid #FFFFFF">
+				<li><a href="#"><img src="https://f.hubspotusercontent30.net/hubfs/2235233/blog-import/2020/20-08-Aug/sm-icons-facebook-logo.png" width="100px" height="100px"></a></li>
+				<li><a href="#"><img src="https://thumbnail.imgbin.com/19/21/12/social-media-icons-icon-whatsapp-icon-WafMiZJF_t.jpg" width="100px" height="100px" ></a></li>
+				<li><a href="#"><img src="https://freepngimg.com/thumb/social_media/74409-instagram-media-social-blog-advertising-marketing-logo-thumb.png" width="100px" height="100px"></a></li>
+			</ul>
 		</div>
-		
 		<div class="col-sm-4">
-			<p>Dehradun – The City Of Love India</p><br>
-			<p>Dehradun is a capital of the Indian state of Uttarakhand near the Himalayan foothills. The city is famous for its pictures landscape and slightly murder climate and provides a gateway to the surrounding region. during the days of British Raj, the official name of the town was dehra.</p>
+			<ul>
+				<li><a href="#"> Privacy Policies</a></li>
+				<li><a href="#"> Terms & Conditions</a> </li>
+			</ul>
 		</div>
 	</div>
-	
-	
-</section>
+	<p class="text-center">Copyright &copy; MyFirstBlog 2021.</p>
+	<p class="text-center"> LuvMycap ;)</p>
+</footer>
 
-
-  </body>
+</body>
 </html>
-
